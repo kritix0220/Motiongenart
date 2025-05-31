@@ -55,7 +55,7 @@ while True:
 
     # Generate art if motion is strong and cooldown passed
     if motion > 5000 and (time.time() - last_art_time) > cooldown:
-        print(f"🎨 Motion Detected: {motion}. Generating art...")
+        print(f">!< Motion Detected: {motion}. Generating art...")
         generate_samila_art(motion)
         last_art_time = time.time()
 
